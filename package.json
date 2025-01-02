@@ -1,0 +1,19 @@
+{
+  "name": "com.xiaoru.sdkTools",
+  "version": "1.0.0",
+  "displayName": "xrSdkTools",
+  "description": "小游戏sdk工具.",
+  "category": "Runtime",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "keywords": [
+    "unity",
+    "xr"
+  ],
+  "author": {
+    "name": "xr",
+    "email": "yuhuaichong@163.com",
+    "url": ""
+  }
+}
