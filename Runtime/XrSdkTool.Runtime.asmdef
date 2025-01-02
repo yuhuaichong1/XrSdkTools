@@ -1,12 +1,8 @@
 {
-    "name": "HybridCLR.Editor",
+    "name": "XrSdkTool.Runtime",
     "rootNamespace": "",
-    "references": [
-        "HybridCLR.Runtime"
-    ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "references": [],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": true,
     "overrideReferences": false,
