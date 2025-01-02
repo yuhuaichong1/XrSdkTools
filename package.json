@@ -1,8 +1,8 @@
 {
   "name": "com.code-philosophy.hybridclr",
-  "version": "7.3.0",
+  "version": "1.0.0",
   "displayName": "XrSdkTool",
-  "description": "XrSdkTool is a fully featured, zero-cost, high-performance, low-memory solution for Unity's all-platform native c# hotupdate.",
+  "description": "XrSdkTool update",
   "category": "Runtime",
   "keywords": [
     "XrSdkTool",
