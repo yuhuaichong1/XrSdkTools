@@ -4,6 +4,7 @@
   "displayName": "xrSdkTools",
   "description": "小游戏sdk工具",
   "unity": "2021.3",
+  "keywords": ["unity", "package", "xr"],
   "author": {
     "name": "xiaoru"
   }
