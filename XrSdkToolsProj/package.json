@@ -1,0 +1,14 @@
+{
+  "name": "com.xiaoru.xrsdktools",
+  "version": "1.0.1",
+  "displayName": "XrSdkTool",
+  "description": "XrSdkTool update",
+  "category": "Runtime",
+  "keywords": [
+    "XrSdkTool",
+    "unity"
+  ],
+  "author": {
+    "name": "xiaoru"
+  }
+}
