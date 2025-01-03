@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\XrSdkToolsProj\Runtime\MonoSi.cs" />
+    <Compile Include="Assets\XrSdkToolsProj\Runtime\Test3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\XrSdkToolsProj\Runtime\xr.sdkTools.Runtime.asmdef" />
