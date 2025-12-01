@@ -1,7 +1,7 @@
-0,ApplovinMAX,1.0.0,https://support.axon.ai/zh/max/unity/overview/integration/
-0,Tradplus,1.0.0,https://docs.tradplusad.com/docs/u3d_download
-0,Tenjin,1.0.0,https://docs.tenjin.com/docs/zh/unity-sdk
-0,KwaiNetwork,1.0.0,https://kwainetwork.kwai.com/#/integration/access
-1,Adjust,1.0.0,https://dev.adjust.com/zh/sdk/unity
-1,Appsflyer,1.0.0,https://dev.appsflyer.com/hc/docs/installation
-1,SolarEngine,1.0.0,https://help.solar-engine.com/cn/docs/kuai-su-ji-cheng-g881
+ApplovinMAX,0,1.0.0,https://support.axon.ai/zh/max/unity/overview/integration/
+Tradplus,0,1.0.0,https://docs.tradplusad.com/docs/u3d_download
+Tenjin,0,1.0.0,https://docs.tenjin.com/docs/zh/unity-sdk
+KwaiNetwork,0,1.0.0,https://kwainetwork.kwai.com/#/integration/access
+Adjust,1,1.0.0,https://dev.adjust.com/zh/sdk/unity
+Appsflyer,1,1.0.0,https://dev.appsflyer.com/hc/docs/installation
+SolarEngine,1,1.0.0,https://help.solar-engine.com/cn/docs/kuai-su-ji-cheng-g881
