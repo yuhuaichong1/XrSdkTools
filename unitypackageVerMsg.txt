@@ -1,0 +1,7 @@
+ApplovinMAX,1.0.0,https://support.axon.ai/zh/max/unity/overview/integration/
+Tradplus,1.0.0,https://docs.tradplusad.com/docs/u3d_download
+Tenjin,1.0.0,https://docs.tenjin.com/docs/zh/unity-sdk
+KwaiNetwork,1.0.0,https://kwainetwork.kwai.com/#/integration/access
+Adjust,1.0.0,https://dev.adjust.com/zh/sdk/unity
+Appsflyer,1.0.0,https://dev.appsflyer.com/hc/docs/installation
+SolarEngine,1.0.0,https://help.solar-engine.com/cn/docs/kuai-su-ji-cheng-g881
