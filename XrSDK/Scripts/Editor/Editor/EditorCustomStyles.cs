@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
-using XrCode;
 
 namespace XrSDK
 {
-    public class EditorCustomStyles : Singleton<EditorCustomStyles>, ILoad, IDispose
+    public class EditorCustomStyles : SdkSingleton<EditorCustomStyles>, SdkILoad, SdkIDispose
     {
         public const string ICON_SPACE = "  ";
 

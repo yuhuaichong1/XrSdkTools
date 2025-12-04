@@ -22,14 +22,15 @@ public class ModulesEditor : EditorWindow
     {
         { ModuleName.ApplovinMAX, new VesrionData{ version = "loading...", sdkURL = "loading..." } },
         { ModuleName.Tradplus, new VesrionData{ version = "loading...", sdkURL = "loading..." } },
-        { ModuleName.Tenjin, new VesrionData{ version = "loading...", sdkURL = "loading..." } },
         { ModuleName.KwaiNetwork, new VesrionData{ version = "loading...", sdkURL = "loading..." } },
+        { ModuleName.TopOn, new VesrionData{ version = "loading...", sdkURL = "loading..." } },
     };
     private Dictionary<ModuleName, VesrionData> AttrMsgDict = new Dictionary<ModuleName, VesrionData>()
     {
         { ModuleName.Adjust, new VesrionData{ version = "loading...", sdkURL = "loading..." } },
         { ModuleName.Appsflyer, new VesrionData{ version = "loading...", sdkURL = "loading..." } },
         { ModuleName.SolarEngine, new VesrionData{ version = "loading...", sdkURL = "loading..." } },
+        { ModuleName.Tenjin, new VesrionData{ version = "loading...", sdkURL = "loading..." } },
     };
 
 
@@ -86,7 +87,7 @@ public class ModulesEditor : EditorWindow
             if (GUILayout.Button("Install", GUILayout.Width(60)))
             {
                 //EditorCoroutineUtility.StartCoroutine(PullPackage("main", "AppsflyerTest.unitypackage"), this);
-                EditorCoroutineUtility.StartCoroutine(PullPackage("main", $"{name}.unitypackage"), this);
+                EditorCoroutineUtility.StartCoroutine(PullPackage("packages", $"{name}.unitypackage"), this);
             }
             GUILayout.EndHorizontal();
         }
@@ -172,7 +173,6 @@ public class ModulesEditor : EditorWindow
         if (isHover && currentEvent.type == EventType.MouseDown && currentEvent.button == 0)
         {
             Application.OpenURL(url); // 打开默认浏览器访问链接
-            Debug.Log($"打开链接：{url}");
         }
 
         // 7. 恢复GUI状态
@@ -253,7 +253,7 @@ public class ModulesEditor : EditorWindow
     /// <returns></returns>
     private IEnumerator PullVersionMsg()
     {
-        string txtPath = Path.Combine(gitDownLoadURL, "main", versionTXT);
+        string txtPath = Path.Combine(gitDownLoadURL, "packages", versionTXT);
 
         using (UnityWebRequest webRequest = UnityWebRequest.Get(txtPath))
         {
